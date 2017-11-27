@@ -1,0 +1,16 @@
+.table_head th {
+  color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 16px 24px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.table_head img {
+  margin-top: -2px;
+  height: 16px;
+  height: 16px;
+  vertical-align: middle;
+}

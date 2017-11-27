@@ -1,0 +1,28 @@
+.btn {
+  height: 40px;
+  padding: 0 23px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn__margin_right {
+  margin-right: 16px;
+}
+
+.btn__theme_gray {
+  color: #757575;
+  background: #ededed;
+}
+
+.btn__theme_gray_primary {
+  color: #fff;
+  background: #07f;
+}
+
+.btn__theme_gray_secondary {
+  color: #07f;
+  background: #ededed;
+}

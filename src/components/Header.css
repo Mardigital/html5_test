@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo__img {
+  height: 75px;
+  margin: 75px 0;
+  cursor: pointer;
+}
+
+.logo__text {
+  color: #FDFEFE;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.header__theme_gray {
+  background: #5DADE2;
+}

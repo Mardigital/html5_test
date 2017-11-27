@@ -1,0 +1,39 @@
+.input {
+  height: 40px;
+  padding: 0 16px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  outline: none;
+  transition: border ease-out 0.3s;
+}
+
+.accept {
+  border: 1px solid #4caf50;
+}
+
+.error {
+  border: 1px solid #f44336;
+}
+
+.input,
+.accept,
+.error {
+  transition: border ease-out 0.3s;
+}
+
+/* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+  color: #999;
+}
+/* Firefox 19+ */
+::-moz-placeholder {
+  color: #999;
+}
+/* IE 10+ */
+:-ms-input-placeholder {
+  color: #999;
+}
+/* Firefox 18- */
+:-moz-placeholder {
+  color: #999;
+}

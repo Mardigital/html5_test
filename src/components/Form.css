@@ -1,0 +1,25 @@
+.form {
+  padding: 16px;
+  background: #1F618D;
+}
+
+.form > input {
+  margin-right: 16px;
+}
+
+.form > button,
+.form > .btn_container {
+  float: right;
+}
+
+.form input[name='name'] {
+  width: 170px;
+}
+
+.form input[name='phone'] {
+  width: 195px;
+}
+
+.form input[name='email'] {
+  width: 250px;
+}

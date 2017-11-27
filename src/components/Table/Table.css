@@ -1,0 +1,46 @@
+.table {
+  width: 100%;
+  border-spacing: 0;
+  table-layout: fixed;
+  margin: 10px 0;
+  background: #fff;
+}
+
+.table td {
+  padding: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #505050;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.td__icons {
+  text-align: right;
+}
+
+.td__icons img {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.icon__edit {
+  margin-right: 30px;
+}
+
+.table th[data-table='fullname'] {
+  width: 138px;
+}
+
+.table th[data-table='email'] {
+  width: 217px;
+}
+
+.row__border_top {
+  box-shadow: inset 0 1px 0 0 #eee;
+}
+
+.td__edit_on {
+  padding: 0 !important;
+}

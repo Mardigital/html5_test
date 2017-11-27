@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #505050;
+  background: #1F618D;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  color: inherit;
+}
+
+img {
+  vertical-align:bottom;
+}
+
+.container_fullwidth {
+  width: 100%;
+}
+
+.container_912px {
+  width: 912px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
